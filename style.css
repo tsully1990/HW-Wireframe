@@ -1,23 +1,33 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: '#777';
-    background: '#777';
-    width: '960px';
-    font-size: '18px';
+    color: #777;
+    background: #777;
+    margin: 10px auto;
+    width: 960px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 header {
     background: #ebebeb;
     text-align: center;
-    font-size: 28px;
+    font-size: 5px;
+    padding: 5px;
 
 }
 
 nav {
     background: #ebebeb;
     text-align: center;
-    font-size: 28px;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: auto;
+    margin-top: -5px;
+
+    
 
 }
 
@@ -25,16 +35,23 @@ section {
     background: #ebebeb;
     width: 495px;
     float: left;
+    height: 300px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    padding: 20px;
 
 }
 
 Aside {
     background: #ebebeb;
-    float: left;
-    width: 495px;
-    height: 385px;
+    float: right;
     text-align: center;
-    margin: 4px;
+    margin-left: 4px;
+    height: 300px;
+    padding: 20px;
+    width: 375px;
+
+    
 
 
 }
@@ -43,8 +60,8 @@ Footer {
     background: #ebebeb;
     clear: both;
     text-align: center;
+    margin-top: -5px;
     
-
 }
 
 Article {
@@ -62,3 +79,18 @@ h1 {
 
 }
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding: 10px;
+}
